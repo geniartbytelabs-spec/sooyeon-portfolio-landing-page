@@ -74,6 +74,7 @@ a{
     margin: 0 auto;
 }
 
+
 /* ---------- Header / Pill Nav ---------- */
 .site-header {
     position: sticky;
@@ -338,9 +339,6 @@ a{
     box-shadow: 0 20px 40px rgba(41, 45, 53, 0.169);
 }
 
-.container{
-    width: var(--container);
-}
 
 .section-head{
     display: flex;
@@ -368,7 +366,7 @@ a{
 
 .highlight-grid{
     display: grid;
-    grid-template-columns: repeat (3, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 22px;
 }
 
